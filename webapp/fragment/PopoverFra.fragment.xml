@@ -1,0 +1,17 @@
+<core:FragmentDefinition
+ xmlns="sap.m"
+ xmlns:core="sap.ui.core">
+ <Popover id="_IDGenPopover1"
+  class=""
+  placement="Auto"
+  initialFocus="email"
+  contentWidth="200px"
+  contentHeight="100px"
+  showHeader="false">
+  <VBox id="_IDGenVBox1">
+  <core:Icon id="_IDGenIcon1" size="2rem" src="sap-icon://attachment-photo" class="sapUiSmallMarginBegin sapUiSmallMarginTopBottom" />
+  <Text id="_IDGenText1" text="This is an attachment icon"/>
+  </VBox>
+ </Popover>
+
+</core:FragmentDefinition>

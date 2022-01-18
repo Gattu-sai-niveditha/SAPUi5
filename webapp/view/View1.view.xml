@@ -1,0 +1,13 @@
+<mvc:View
+    controllerName="ui.MyPersonalProject.personalproject.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+        <App id="app">
+                <Page id="page" title="{i18n>title}">
+                   <Link id="_IDGenLink1" text="Show Image" press="handlePopoverPress"  target="_blank" 
+                   class="sapUiSmallMarginBegin sapUiSmallMarginTop"/>
+                </Page>
+        </App>
+</mvc:View>
